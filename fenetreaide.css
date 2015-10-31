@@ -1,0 +1,163 @@
+*{
+  padding: 0;
+  margin: 0;
+  float: none;
+}
+
+body{
+  background: #000;
+}
+
+/* barre loupe recherche-------------------------------------------*/
+
+#Fbulle{
+  height: 1px;
+  width: 1px;
+  background-color: transparent;
+  margin-left: 360px;
+  border-bottom:10px solid #fff;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+}
+
+#Fcontenant{
+  width: 400px;
+  height: 430px;
+  background-color: #fff;
+  position: absolute;
+}
+
+li{
+  list-style-type: none;
+  /*height: 50px;*/
+}
+
+.inte{
+  /*height: 70px;*/
+  border-bottom: solid 1px #CEC7C7;
+  width: 90%;
+  margin-left: 20px;
+}
+
+#inteBr{
+  border-bottom: solid 1px #CEC7C7;
+  width: 90%;
+  margin-left: 20px;
+}
+
+#loupe{
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+#loupe, #texteLoupe{
+  display: inline-block;
+  vertical-align: top;
+}
+
+#texteLoupe{
+  height: 50px;
+  width: 85%;
+  border: none;
+  padding-top: 10px;
+  padding-left: 5px;
+  font-size: 1.1em;
+}
+
+#liLoupe{
+  border-bottom: 2px solid #E6E6E6;
+}
+
+.fichier, #scrolldown p{
+  display: inline-flex;
+}
+
+.fichier{
+  padding-top: 10px;
+  padding-bottom: 10Px;
+}
+
+.inte p{
+  font-size: 0.9em;
+  color: #CEC7C7;
+  /*padding-bottom: 1px;*/
+  vertical-align: top;
+  padding-top: 25px;
+  margin-left: -15px;
+}
+
+#inteBr p{
+  font-size: 0.9em;
+  color: #CEC7C7;
+  /*padding-bottom: 1px;*/
+  vertical-align: top;
+  padding-top: 20px;
+  margin-left: -15px;
+}
+
+#articleR{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  background-color: #CEC7C7;
+  color: #424242;
+}
+
+#ombre{
+  position: relative;
+  background-image: linear-gradient(to top, #FFF 21%, transparent 96%);
+  z-index: 2;
+  width: 100%;
+  height: 30px;
+  margin-top:290px;
+}
+#Caide{
+  border-top: 1px solid #CEC7C7;
+  padding-left: 20px;
+  color: #F78181;
+}
+
+#Caide p{
+  padding-top:10px;
+  padding-left: 20px;
+}
+
+
+/*liste deroulante ----------------------------------------------------*/
+
+#scrolldown{
+  height: 320px;
+  width: 100%;
+  position: absolute;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+/*
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#scrolldown::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+*/
+
+/*effet---------------------------------------------------------*/
+
+.inte:hover > .fichier, .inte p{
+  padding-left: 15px;
+}
+
+#inteBr:hover > .fichier, #inteBr p{
+  padding-left: 15px;
+}
+
+#Caide:hover{
+  cursor: pointer;
+}

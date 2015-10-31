@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg >
+<svg width="45px" height="45px" xml:lang="fr"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink">
+   <title>Logo fichier</title>
+   <desc>Un putain de logo fichier en svg</desc>
+
+   <rect x="10px" y="10px" width="25" height="30" style="fill:#CEC7C7"/>
+   <rect x="12px" y="12" width="21px" height="26" style="fill:#FFF"/>
+   <line x1="27" x2="34" y1="11" y2="18" stroke-width="2" stroke="#CEC7C7"/>
+   <line x1="26" x2="26" y1="10" y2="18" stroke-width="2" stroke="#CEC7C7"/>
+   <line x1="25" x2="35" y1="18" y2="18" stroke-width="2" stroke="#CEC7C7"/>
+   <rect x="29" y="6" width="12" height="10" style="fill:#fff" transform="rotate(45 35 10)"/>
+
+   <line x1="14" x2="23" y1="18" y2="18" stroke-width="2" stroke="#CEC7C7"/>
+   <line x1="14" x2="30" y1="23" y2="23" stroke-width="2" stroke="#CEC7C7"/>
+   <line x1="14" x2="30" y1="28" y2="28" stroke-width="2" stroke="#CEC7C7"/>
+   <line x1="14" x2="30" y1="33" y2="33" stroke-width="2" stroke="#CEC7C7"/>
+</svg>
